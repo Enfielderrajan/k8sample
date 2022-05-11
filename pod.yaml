@@ -26,7 +26,7 @@ spec:
         app: hello
     spec:
       containers:
-      - name: hello
-        image: enfielderrajan/myimage:latest
-        imagePullPolicy: Always     
+        - name: hello
+          image: nambi05aws/myimage:latest
+          imagePullPolicy: Always     
   
